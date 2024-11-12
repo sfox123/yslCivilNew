@@ -1,0 +1,49 @@
+@use "../utils" as *;
+
+.breadcrumb {
+  &__pt-310 {
+    padding-top: 300px;
+    padding-bottom: 145px;
+    @media #{$md,$xs} {
+      padding-top: 120px;
+    }
+  }
+  &__title {
+    font-size: 65px;
+    color: var(--tp-common-black);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    width: fit-content;
+    margin-bottom: 40px;
+    @media #{$xs,$md} {
+      font-size: 25px;
+    }
+  }
+}
+.ac-about-shape-img {
+  position: absolute;
+  bottom: -17px;
+  left: 34px;
+  z-index: 999;
+}
+.ac-testimonial-space {
+  padding-top: 115px;
+  padding-bottom: 130px;
+  @media #{$xs} {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.breadcrumb__area {
+  @media #{$xl} {
+    background-size: contain;
+    background-position: right;
+    background-color: #fff;
+  }
+  @media #{$lg,$md,$xs} {
+    background-size: contain;
+    background-position: left;
+    background-color: #fff;
+  }
+}

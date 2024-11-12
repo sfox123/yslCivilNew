@@ -1,0 +1,54 @@
+/* parallax.module.css */
+
+.container {
+  height: 40rem;
+  display: flex;
+  align-items: flex-start;
+  overflow-y: auto;
+  width: 100%;
+  scrollbar-width: none;
+  background-color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  max-width: 80rem; /* Tailwind max-w-5xl equivalent */
+  margin: 0 auto;
+  gap: 2.5rem; /* Tailwind gap-10 equivalent */
+  padding: 10rem 2.5rem; /* Tailwind py-40 and px-10 equivalent */
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Tailwind md:grid-cols-2 equivalent */
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Tailwind lg:grid-cols-3 equivalent */
+  }
+}
+
+.gridItem {
+  display: grid;
+  gap: 2.5rem; /* Tailwind gap-10 equivalent */
+}
+
+.image {
+  height: 20rem; /* Tailwind h-80 equivalent */
+  width: 100%;
+  object-fit: cover;
+  object-position: left top;
+  border-radius: 0.5rem; /* Tailwind rounded-lg equivalent */
+  margin: 0;
+  padding: 0;
+}
