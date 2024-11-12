@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import hero from "../../../../public/assets/anime/hero.json";
+import hero from "../../anime/hero.json";
 import LottieAnimation from "../../lottie/LottieAnimation";
 
 const hero_contents = {

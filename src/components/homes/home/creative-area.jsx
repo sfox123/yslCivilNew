@@ -2,9 +2,9 @@ import React from "react";
 import useModal from "../../../hooks/use-modal";
 import VideoModal from "../../common/modals/modal-video";
 import LottieAnimation from "../../lottie/LottieAnimation";
-import brickwall from "../../../../public/assets/anime/brickwall.json";
-import concrete from "../../../../public/assets/anime/Concrete Mixer.json";
-import helmet from "../../../../public/assets/anime/Helmet.json";
+import brickwall from "../../anime/Brickwall.json";
+import concrete from "../../anime/Concrete Mixer.json";
+import helmet from "../../anime/Helmet.json";
 import Link from "next/link";
 
 const creative_contents = {
