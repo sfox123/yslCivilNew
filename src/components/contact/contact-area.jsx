@@ -1,6 +1,6 @@
 import React from "react";
 import ContactForm from "../forms/contact-form";
-import customer_support from "../../../public/assets/img/breadcrum/contact.json";
+import customer_support from "../../components/anime/contact.json";
 import LottieAnimation from "../lottie/LottieAnimation";
 
 const ContactArea = () => {
