@@ -2,8 +2,8 @@ import React from "react";
 import useModal from "../../hooks/use-modal";
 import VideoModal from "../common/modals/modal-video";
 import ab1 from "../anime/Tower Crane.json";
-import ab2 from "../anime/img/breadcrum/Excavator.json";
-import ab3 from "../anime/anime/Helmet.json";
+import ab2 from "../anime/Excavator.json";
+import ab3 from "../anime/Helmet.json";
 
 import LottieAnimation from "../lottie/LottieAnimation";
 
